@@ -23,6 +23,10 @@ public class String3 {
     System.out.println("please enter your full name");
     Scanner sc=new Scanner(System.in);
     String fullname=sc.nextLine();
-    String strArr[]=fullname.split(6,10);
+    String strArr[]=fullname.split();
+    for(int i=0;i<strArr.length;i++){
+        System.out.println(strArr[i]);
+    }
+   
     }
 }
